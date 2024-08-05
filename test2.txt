@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: black;
+            color: azure;
+            padding: 16px 0;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: azure;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .product {
+            border: 5px solid black;
+            margin: 20px;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: black;
+            color: aliceblue;
+            border-radius: 5px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: brown;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </header>
+    <div class="products">
+        <div class="product">
+            <img src="https://www.beyours.in/cdn/shop/files/NEW_LAUNCHED.jpg?v=1715494704&width=3000" height="200px" width="200px">
+            <h2>SHIRT</h2>
+            <p>This is a Shirt</p>
+            <p>$20.00</p>
+            <button>Add TO Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/6/UQ/BI/FF/31943666/mens-tshirt.jpeg" height="200px" width="200px">
+            <h2>T-SHIRT</h2>
+            <p>This is a T-Shirt</p>
+            <p>$25.00</p>
+            <button>Add TO Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/11/YV/ZF/YO/116453489/white-casual-shoes-for-men.jpg" height="200px" width="200px">
+            <h2>SHOE</h2>
+            <p>This is a Shoe</p>
+            <p>$23.00</p>
+            <button>Add TO Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQV2_ReE8ymIDyBxvjQtdkdM8dH-C6vEyuJw&s" height="200px" width="200px">
+            <h2>WATCH</h2>
+            <p>This is a Watch</p>
+            <p>$23.00</p>
+            <button>Add TO Cart</button>
+        </div>
+    </div>
+    <footer>
+        Created BY Bhavana.
+    </footer>
+</body>
+</html>
