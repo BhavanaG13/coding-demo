@@ -1,1 +1,86 @@
-updated sucessfully
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="bhavz" content="blog website">
+    <title>Blog Website</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(red,blue,green);
+
+        }
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        main{
+            width:550px;
+            margin:auto;
+
+        }
+        .post{
+            background-color: white;
+            border-radius: 10px;
+            margin:20px;
+            padding:10px;
+
+
+        }
+        h2{
+            text-align: center;
+        }
+        .post img{
+            margin-left: 40px;
+        }
+        p{
+            text-align: justify;
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Blog</h1>
+    </header>
+    <main>
+        <article class="post">
+            <h2>Exploring The beauty Of Nature</h2>
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/006/240/296/small_2x/idyllic-mountain-landscape-with-fresh-green-meadows-and-blooming-wildflowers-idyllic-nature-countryside-view-rural-outdoor-natural-view-idyllic-banner-nature-panoramic-spring-summer-scenery-photo.jpg"height="400px" width="400px">
+            <p>Nature is an inherent character or constitution,[1] particularly of the ecosphere or the universe as a whole. In this general sense nature refers to the laws, elements and phenomena of the physical world, including life. Although humans are part of nature, human activity or humans as a whole are often described as at times at odds, or outright separate and even superior to nature.[2]
+
+                During the advent of modern scientific method in the last several centuries, nature became the passive reality, organized and moved by divine laws.[3][4] With the Industrial Revolution, nature increasingly became seen as the part of reality deprived from intentional intervention: it was hence considered as sacred by some traditions (Rousseau, American transcendentalism) or a mere decorum for divine providence or human history (Hegel, Marx). However, a vitalist vision of nature, closer to the pre-Socratic one, got reborn at the same time, especially after Charles Darwin.[2] .</p>
+
+        </article>
+        <article class="post">
+            <h2>Technology</h2>
+            <img src="https://www.shutterstock.com/shutterstock/photos/1932042689/display_1500/stock-photo-businessman-using-mobile-smart-phone-business-global-internet-connection-application-technology-1932042689.jpg"height="400px" width="400px">
+            <p>Technology is the application of conceptual knowledge to achieve practical goals, especially in a reproducible way.[1] The word technology can also mean the products resulting from such efforts,[2][3] including both tangible tools such as utensils or machines, and intangible ones such as software. Technology plays a critical role in science, engineering, and everyday life.
+
+                Technological advancements have led to significant changes in society. The earliest known technology is the stone tool, used during prehistoric times, followed by the control of fire, which contributed to the growth of the human brain and the development of language during the Ice Age. The invention of the wheel in the Bronze Age allowed greater travel and the creation of more complex machines. More recent technological inventions, including the printing press, telephone, and the Internet, have lowered barriers to communication and ushered in the knowledge economy.</p> 
+    
+        </article>
+        <article class="post">
+            <h2>cultural diversity</h2>
+            <img src="https://www.shutterstock.com/image-vector/illustration-india-background-showing-incredible-600nw-546931870.jpg"height="400px" width="400px">
+            <p>Cultural diversity is the quality of diverse or different cultures, as opposed to monoculture. It has a variety of meanings in different contexts, sometimes applying to cultural products like art works in museums or entertainment available online, and sometimes applying to the variety of human cultures or traditions in a specific region, or in the world as a whole. It can also refer to the inclusion of different cultural perspectives in an organization or society.
+
+                Cultural diversity can be affected by political factors such as censorship or the protection of the rights of artists, and by economic factors such as free trade or protectionism in the market for cultural goods. Since the middle of the 20th century, there has been a concerted international effort to protect cultural diversity, involving the United Nations Educational, Scientific and Cultural Organization (UNESCO) and its member states. This involves action at international, national, and local levels. Cultural diversity can also be promoted by individual citizens in the ways they choose to express or experience culture. </p>
+        </article>
+    </main>
+    <footer>
+        &#128293 Designed By Bhavana &#128293
+
+    </footer>
+    
+</body>
+</html>
